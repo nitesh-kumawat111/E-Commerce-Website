@@ -320,7 +320,7 @@
 
 /*  ShopFront Website Responsive  from 360px to 766px */
 
-@media screen and (min-width:360px)and (max-width:766px) {
+@media screen and (min-width:350px)and (max-width:766px) {
 
     .head .head-elements {
         display: none;
@@ -350,7 +350,7 @@
     .front {
         height: auto;
         width: 10rem;
-        margin: 0.4rem 0 0.5rem 0.2rem;
+        margin: 0.4rem 0 0.5rem 0rem;
     }
 
     .front a {
@@ -366,7 +366,7 @@
     }
 
     .body-top {
-        height: 5rem;
+        height: auto;
     }
 
     .body-top .categories {
@@ -508,14 +508,14 @@
 
     .main2 .card {
         height: 13rem;
-        width: 22rem;
+        width: 96%;
         border-radius: 1rem;
         margin-left: 0.5rem;
     }
 
     .main2 .card-img {
         height: 13rem;
-        width: 22rem;
+        width: 100%;
         border-radius: 1rem;
     }
 
@@ -564,8 +564,8 @@
 
     .nav2 .nav2-head h1 {
         height: 3rem;
-        margin: 0.7rem 0 0 0.5rem;
-        font-size: x-large;
+        margin: 0.7rem 0 0 0.2rem;
+        font-size: larger;
         font-weight: 900;
     }
 
@@ -759,11 +759,13 @@
     .image1 {
         width: 98%;
         height: 34rem;
+
     }
 
     .image1 img {
         width: 98%;
         height: 15rem;
+        margin-left: 0.1rem;
     }
 
     .bodysale {
@@ -775,19 +777,21 @@
         width: 97%;
         height: 13rem;
         margin-top: 5px;
+        margin-left: 0.3rem;
     }
 
     .cartfsp {
         flex-wrap: wrap;
         height: 33rem;
         margin-top: 1rem;
+        margin-left: 0.7rem;
     }
 
     .cartfsp .card {
         height: 9rem;
-        width: 21rem;
+        width: 19rem;
         margin-top: 0.8rem;
-        margin-right: 1rem;
+        margin-right: 1.4rem;
         display: flex;
         flex-direction: row;
     }
@@ -827,6 +831,17 @@
         width: 98%;
         height: 46rem;
     }
+
+    .block .cartbsp {
+        margin-left: 0.3rem;
+
+    }
+
+    .block .carttrp {
+        margin-left: 0.3rem;
+
+    }
+
 
     .block .cartbsp .card {
         margin: 0.4rem 0.2rem 1rem 0.3rem;
