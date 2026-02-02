@@ -733,7 +733,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .bodylp .cartlp .card button {
@@ -1198,4 +1198,5 @@
 }
 
 /* This is the END of ShopFront Website Style File  */ is the END of ShopFront Website Style File  */
+
 
