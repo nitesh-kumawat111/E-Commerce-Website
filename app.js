@@ -205,7 +205,7 @@ const latestProducts = [
   {
     id: 2,
     title: "Leather Wallet",
-    description: "Men Trendy, Casual Blue Genuine Leather RFID Wallet - Regular Size",
+    description: "Men Trendy, Casual Blue Genuine Leather",
     price: 448,
     image: "images/walletEcom.webp",
     category: "Accessories",
@@ -568,4 +568,5 @@ for (let btnac of btnacs) {
 
   });
 }
+
 
