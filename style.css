@@ -8,7 +8,7 @@
 /* style for  whole website container */
 .container {
     height: auto;
-    margin: 0.1rem 0.3rem 0 0.3rem;
+    margin: 0.1rem 0rem 0 0rem;
     background-color: whitesmoke;
 }
 
@@ -26,7 +26,7 @@
     position: sticky;
 }
 
-
+/* */
 .top-nav {
     position: sticky;
     top: 0;
@@ -151,8 +151,8 @@
 
 .nav-link:hover {
     opacity: 1.5;
-    zoom: 1.1;
-    color: rgb(22, 230, 108);
+    zoom: 1.001;
+    color: rgb(230, 80, 11);
 }
 
 .alerts h3 {
@@ -563,7 +563,7 @@
     width: 4rem;
     margin-top: 1rem;
     border-radius: 50px;
-    background-color: rgb(65, 252, 19);
+    background-color: rgb(22, 230, 108);
     color: aliceblue;
     border: none;
 }
@@ -617,7 +617,7 @@
     border-radius: 1rem;
     height: 2rem;
     width: 8rem;
-    background-color: rgb(14, 235, 14);
+    background-color: rgb(22, 230, 108);
     color: aliceblue;
     border: none;
 }
@@ -790,7 +790,7 @@
     height: 2rem;
     width: 4rem;
     border-radius: 2rem;
-    background-color: rgb(10, 241, 10);
+    background-color:rgb(22, 230, 108);
     color: aliceblue;
     border: none;
 }
@@ -849,7 +849,7 @@
     height: 2rem;
     width: 4rem;
     border-radius: 2rem;
-    background-color: rgb(10, 241, 10);
+    background-color:rgb(22, 230, 108);
     color: aliceblue;
     border: none;
 
@@ -965,7 +965,7 @@
     height: 2rem;
     width: 4rem;
     border-radius: 2rem;
-    background-color: rgb(10, 241, 10);
+    background-color: rgb(22, 230, 108);
     color: aliceblue;
     border: none;
 }
@@ -1197,4 +1197,4 @@
     background-color: black;
 }
 
-/* This is the END of ShopFront Website Style File  */
+/* This is the END of ShopFront Website Style File  */ is the END of ShopFront Website Style File  */
