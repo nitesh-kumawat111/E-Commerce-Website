@@ -702,6 +702,10 @@
     .tcards .card  .card-body{
         width: 40%;
     }
+    .tcards .card  .card-body .btn1{
+        width: 7rem;
+    }
+
 
     .tcards p {
         height: 3rem;
@@ -964,5 +968,6 @@
         height: 4rem;
     }
 }
+
 
 
