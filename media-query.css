@@ -676,7 +676,7 @@
         height: 2rem;
         width: 8rem;
     }
-
+    
     .tcards {
         margin: 2rem 0.2rem 0.2rem 0;
         width: 98%;
@@ -697,6 +697,10 @@
 
     .tcards .card {
         width: 20rem;
+    }
+
+    .tcards .card  .card-body{
+        width: 40%;
     }
 
     .tcards p {
@@ -960,4 +964,5 @@
         height: 4rem;
     }
 }
+
 
