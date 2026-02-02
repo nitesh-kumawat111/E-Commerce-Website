@@ -1,0 +1,1200 @@
+/* all body style  */
+
+* {
+    margin: 0px;
+    padding: 0rem;
+}
+
+/* style for  whole website container */
+.container {
+    height: auto;
+    margin: 0.1rem 0.3rem 0 0.3rem;
+    background-color: whitesmoke;
+}
+
+
+/*  topmost navbar style  */
+.tophead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0%;
+    height: 2.5rem;
+    width: 100%;
+    color: azure;
+    background-color: rgb(22, 230, 108);
+    position: sticky;
+}
+
+
+.top-nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    height: 5rem;
+}
+
+/* logo style */
+.front {
+    height: auto;
+    width: 10rem;
+    margin: 0.4rem 0 0.5rem 6rem;
+}
+
+.front a {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.front a :hover {
+    color: rgb(253, 251, 251);
+}
+
+/* searchbox style */
+.searchbox {
+    margin: 0rem 2rem 0rem 2rem;
+    padding-top: 0.2rem;
+    width: 38rem;
+    height: 2rem;
+}
+
+.searchbox .box {
+    height: 1.8rem;
+    width: 25rem;
+    border-radius: 1rem;
+    background-color: azure;
+    border: 2px solid rgb(250, 246, 245);
+    text-align: center;
+    margin-right: 0rem;
+}
+
+
+.searchbox .box :hover {
+    background-color: azure;
+}
+
+.searchbox .btnn {
+    color: red;
+    height: 2.2rem;
+    width: 3.9rem;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 3px solid rgb(41, 200, 221);
+}
+
+.searchbox i {
+    margin: 0 0.5rem 0 0;
+}
+
+.searchbox .btn {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 1rem;
+    background-color: azure;
+    border: 2px solid rgb(233, 76, 14);
+    color: rgb(233, 76, 14);
+    margin-right: 2rem;
+}
+
+.searchbox .btn:hover {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 1rem;
+    background-color: rgb(233, 76, 14);
+    border: 1px solid rgb(237, 247, 247);
+    color: aliceblue;
+}
+
+/* bottom part of navbar style */
+.bottomhead {
+    padding: 0%;
+    height: 2.5rem;
+    width: 100%;
+    color: white;
+    background-color: rgb(22, 230, 108);
+    position: sticky;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 4rem;
+}
+
+.head-elements {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-togg {
+    display: none;
+}
+
+.nav-togg2 {
+    display: none;
+}
+
+.head .head-elements .nav-link {
+    text-decoration: none;
+    margin: 0.5rem 0.8rem 0 0.8rem;
+    color: white;
+    font-weight: 700;
+    font-size: larger;
+    opacity: 0.9;
+}
+
+.nav-link:hover {
+    opacity: 1.5;
+    zoom: 1.1;
+    color: rgb(22, 230, 108);
+}
+
+.alerts h3 {
+    margin: 0.5rem 0.6rem 0 0.6rem;
+    font-weight: 700;
+    font-size: larger;
+    opacity: 1.4;
+}
+
+/* body top navbar style */
+.body-top {
+    padding: 0.1rem;
+    height: 3rem;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.body-top .categories {
+    margin: 0.3rem 0 0 3rem;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.body-top .categories .btn {
+    background-color: rgb(23, 152, 228);
+    width: 15rem;
+    height: 3rem;
+    margin: 0.5rem 0 0 2rem;
+    border-radius: 1rem;
+    color: aliceblue;
+    border: 2px solid azure;
+}
+
+.body-top .categories .btn:hover {
+    background-color: rgb(20, 111, 231);
+    color: aliceblue;
+}
+
+.body-top .categories .btn i {
+    margin-right: 0.6rem;
+}
+
+.body-top .nav-options {
+    margin: 0.5rem 1.5rem 0 0.8rem;
+}
+
+.body-top .nav-link {
+    text-decoration: none;
+    margin: 1.5rem 1.5rem 1rem 0.8rem;
+    color: rgb(29, 22, 22);
+    font-weight: 700;
+    font-size: larger;
+    opacity: 0.9;
+}
+
+.menu .nav-link:hover {
+    opacity: 1.5;
+    zoom: 1.1;
+    color: rgb(22, 230, 108);
+    text-decoration: underline rgb(22, 230, 108) 0.5rem;
+}
+
+/* body = sidenav + main card style */
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.side-nav {
+    background-color: rgb(234, 243, 239);
+    height: 550px;
+    width: 25%;
+    margin: 0 0 0 1rem;
+    border: 2px solid rgb(226, 219, 219);
+    border-radius: 15px;
+}
+
+.side-nav:hover {
+    border: 2px solid rgb(15, 224, 78);
+}
+
+.nav-elements {
+    height: 45px;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-elements i {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 14px;
+    margin-top: 11px;
+}
+
+.nav-elements a {
+    margin-left: 10px;
+    text-decoration: none;
+    width: 200px;
+    color: black;
+}
+
+.nav-elements a i {
+    margin-right: 0px;
+}
+
+.main {
+    width: auto;
+    height: 33rem;
+    margin-right: 3rem;
+
+
+}
+
+.main-card .card {
+    position: relative;
+    display: inline-block;
+    height: 33rem;
+    width: 50rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.main-card .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.main .card img {
+    display: block;
+    height: 33rem;
+    width: 54rem;
+}
+
+.main .card-img-overlay {
+    position: absolute;
+    height: 22rem;
+    width: 50%;
+    top: 5%;
+    left: 5%;
+    margin: 3rem 0 0 1rem;
+    color: aliceblue;
+}
+
+.main .card-img-overlay .btn1 {
+    background-color: rgb(233, 218, 13);
+    width: 10rem;
+    height: 2rem;
+    margin: 0.5rem 0 2rem 2rem;
+    border-radius: 0.5rem;
+    color: black;
+    border: none;
+}
+
+.main .card-img-overlay .btn2 {
+    background-color: rgb(23, 206, 219);
+    width: 10rem;
+    height: 2rem;
+    margin: 4rem 0 0 2rem;
+    border-radius: 0.5rem;
+    color: black;
+    border: none;
+}
+
+/* cards below sidenav style */
+.main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 23rem;
+    width: 99%;
+}
+
+.main2 .card {
+    position: relative;
+    height: 19rem;
+    width: 23rem;
+    margin: 0.5rem 0.2rem 0 1rem;
+    border-radius: 1rem;
+}
+
+.main2 .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.main2 .card-img {
+    height: 19rem;
+    width: 23rem;
+    border-radius: 1rem 0 1rem 0;
+}
+
+.main2 .card-img-overlay {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    height: 18rem;
+    width: 22rem;
+    color: aliceblue;
+}
+
+
+.main2 .card h1 {
+    height: 4rem;
+    width: 20rem;
+    font-weight: 800;
+}
+
+.main2 .btn {
+    width: 10rem;
+    height: 3rem;
+    margin-top: 0.3rem;
+    border-radius: 50px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+}
+
+.main2 .card p {
+    margin-top: 1rem;
+    padding: 0.4rem;
+    height: 4rem;
+    width: 16rem;
+}
+
+/*Popular Products , Trending Products ,Latest Products ,bestseller  NavBar style */
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    height: 4rem;
+    color: aliceblue;
+    border: 18px solid rgb(22, 230, 108);
+}
+
+.nav2 .nav2-options {
+    margin: 1rem 1.5rem 0 0.8rem;
+}
+
+.nav2 .nav2-head {
+    color: black;
+    margin-top: 0rem;
+}
+
+.nav2 .nav-link {
+    text-decoration: none;
+    margin: 1.5rem 1.5rem 0 0.8rem;
+    color: rgb(29, 22, 22);
+    font-weight: 700;
+    font-size: larger;
+    opacity: 0.9;
+}
+
+.nav2 .nav2-options button {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    border: 2px solid rgb(11, 220, 235);
+    color: rgb(11, 220, 235);
+    margin: 0rem 0 0.8rem 0;
+}
+
+.nav2 .nav2-options button:hover {
+    background-color: rgb(11, 220, 235);
+    color: aliceblue;
+}
+
+/*Popular Products cards style */
+
+.cart {
+    height: auto;
+    width: 99%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cart .card {
+    height: 21rem;
+    width: 16rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.card-img-overlay2 {
+    position: absolute;
+    height: 1.5rem;
+    width: 4rem;
+    top: 115%;
+    left: 62%;
+}
+
+.main-card .card-img-overlay3 {
+    position: absolute;
+    height: 2rem;
+    width: 4rem;
+    top: 70%;
+    left: 39%;
+}
+
+.main-card .card-img-overlay4 {
+    position: absolute;
+    height: 2rem;
+    width: 4rem;
+    top: 70%;
+    left: 93%;
+}
+
+.main-card .card-img-overlay3 i {
+    height: 0.7rem;
+    width: 0.7rem;
+}
+
+.main-card .card-img-overlay4 i {
+    height: 0.7rem;
+    width: 0.7rem;
+}
+
+.main-card .card-img-overlay3 button {
+    border-radius: 60%;
+    border: 2px solid rgb(248, 245, 245);
+}
+
+.main-card .card-img-overlay4 button {
+    border-radius: 60%;
+    border: 2px solid rgb(248, 245, 245);
+}
+
+.main-card .card-img-overlay3 button:hover {
+    color: aliceblue;
+    background-color: black;
+
+}
+
+.main-card .card-img-overlay4 button:hover {
+    color: aliceblue;
+    background-color: black;
+
+}
+
+.card-img-overlay2 input {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin: none;
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    padding: auto;
+}
+
+.cart .card img {
+    height: 10rem;
+    width: 16rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.cart .card-body {
+    padding: 1rem;
+    height: 9rem;
+    background-color: aliceblue;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.cart .card-body h5 {
+    margin-top: 0rem;
+}
+
+.cart .card-body p {
+    margin-top: 0rem;
+    height: 2.5rem;
+}
+
+
+.cart .card-body .btn {
+    height: 3rem;
+    width: 12rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.cart .card-body .btn:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.card-img-overlay .btn1 {
+    height: 2rem;
+    width: 4rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    background-color: rgb(65, 252, 19);
+    color: aliceblue;
+    border: none;
+}
+
+.cart .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.body3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*Trending Products  advertisement cards style */
+.body3 .main-card {
+    height: 36rem;
+    margin-left: 1rem;
+    width: 18rem;
+    margin-top: 1.2rem;
+
+}
+
+.body3 .main-card .card {
+    height: 36rem;
+    width: 18rem;
+    margin-top: 1.2rem;
+}
+
+.body3 .card .card-body {
+    background-color: rgb(8, 243, 133);
+}
+
+.body3 img {
+    height: 36rem;
+    width: 18rem;
+}
+
+.body3 h1 {
+    width: 11rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+    color: aliceblue;
+}
+
+.body3 .btn4 {
+    margin-top: 2rem;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 8rem;
+    background-color: rgb(14, 235, 14);
+    color: aliceblue;
+    border: none;
+}
+
+.body3 .btn2 {
+    margin-top: 2rem;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(15, 89, 226);
+    color: aliceblue;
+    border: none;
+}
+
+/*Trending Products Amazing cards style */
+.tcards {
+    margin: 2rem 0.2rem 0.2rem 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tcards-1 {
+    height: 38rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tcards-1 .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0.8rem 0.1rem 0.5rem 0.8rem;
+    height: 9rem;
+    width: 25rem;
+    border-radius: 1rem;
+}
+
+.tcards-2 {
+    height: 38rem;
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tcards-2 .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0.8rem 0.1rem 0.5rem 0.8rem;
+    border-radius: 1rem;
+    height: 9rem;
+    width: 25rem;
+}
+
+.tcards .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.tcards img {
+    height: 9rem;
+    width: 10rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.tcards p {
+    height: 3rem;
+    width: 12rem;
+    margin: 0.5rem 0 0 1rem;
+}
+
+.tcards h5 {
+    height: 2rem;
+    width: 9rem;
+    margin: auto;
+}
+
+.tcards button {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 30px;
+    background-color: aliceblue;
+    color: rgb(11, 53, 238);
+    margin: 0.5rem 0 1rem 0;
+    border: 2px solid rgb(11, 53, 238);
+}
+
+.tcards button:hover {
+    background-color: rgb(11, 53, 238);
+    color: aliceblue;
+}
+
+.tcards .card-body {
+    padding: 0.4rem;
+    padding-left: 1.6rem;
+    background-color: azure;
+    border-radius: 0 1rem 1rem 0;
+}
+
+/*Lastest Products  cards style */
+.bodylp {
+    height: 51rem;
+    width: 99%;
+}
+
+.bodylp .cartlp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bodylp .cartlp .card button {
+    height: 3rem;
+    width: 12rem;
+}
+
+.cartlp .card img {
+    height: 10rem;
+    width: 16.5rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.cartlp .card-body {
+    padding: 1rem;
+    height: 9rem;
+    background-color: aliceblue;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.cartlp .card-body h5 {
+    margin-top: 0rem;
+}
+
+.cartlp .card-body p {
+    margin-top: 0rem;
+    height: 2.5rem;
+}
+
+.cartlp .card-body .btn {
+    height: 3rem;
+    width: 12rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.cartlp .card-body .btn:hover {
+
+    background-color: blue;
+    color: aliceblue;
+}
+
+.cartlp .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.bodylp .cartlp .card .btn1 {
+    height: 2rem;
+    width: 4rem;
+    border-radius: 2rem;
+    background-color: rgb(10, 241, 10);
+    color: aliceblue;
+    border: none;
+}
+
+.cartlp {
+    height: 22rem;
+    width: 99%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cartlp .card {
+    height: 21rem;
+    width: 16.5rem;
+    margin-top: 2rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+
+/* Advertisement images style */
+.image1 img {
+    border-radius: 2rem;
+    margin: 0 1rem 0 1rem;
+    width: 46%;
+    height: 16rem;
+    border: 2px solid black;
+}
+
+/*FlashSell Products  cards style */
+.bodysale {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bodysale .image img {
+    width: 18rem;
+    height: 25rem;
+    margin: 0.3rem 0 0 1rem;
+    border-radius: 1rem;
+}
+
+/*Flash Sell Products   cards style */
+.bodysale .cartfsp .card button {
+    height: 3rem;
+    width: 12rem;
+}
+
+.bodysale .cartfsp .card .btn1 {
+    height: 2rem;
+    width: 4rem;
+    border-radius: 2rem;
+    background-color: rgb(10, 241, 10);
+    color: aliceblue;
+    border: none;
+
+}
+
+.cartfsp .card img {
+    height: 10rem;
+    width: 16rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.cartfsp .card-body {
+    padding: 1rem;
+    height: 9rem;
+    background-color: aliceblue;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.cartfsp .card-body h5 {
+    margin-top: 0rem;
+}
+
+.cartfsp .card-body p {
+    margin-top: 0rem;
+    height: 2.5rem;
+}
+
+.cartfsp .card-body .btn {
+    height: 3rem;
+    width: 12rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.cartfsp .card-body .btn:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.cartfsp .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.cartfsp {
+    height: 22rem;
+    width: 99%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cartfsp .card {
+    height: 21rem;
+    width: 16rem;
+    margin-top: 2rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+/* BestSeller and TopRated products Style*/
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 57rem;
+}
+
+.block1 {
+    width: 49%;
+    height: 55rem;
+}
+
+.block2 {
+    width: 49%;
+    height: 55rem;
+}
+
+.block1 .cartbsp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block2 .carttrp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block .cart .card {
+    margin: 0.5rem 0 0.5rem 1rem;
+
+}
+
+.block .cart .card button {
+    height: 3rem;
+    width: 12rem;
+
+}
+
+.block .cart .card .btn1 {
+    height: 2rem;
+    width: 4rem;
+    border-radius: 2rem;
+    background-color: rgb(10, 241, 10);
+    color: aliceblue;
+    border: none;
+}
+
+/* BestSeller  products cards  Style*/
+.cartbsp .card img {
+    height: 10rem;
+    width: 16rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.cartbsp .card-body {
+    padding: 1rem;
+    height: 9rem;
+    background-color: aliceblue;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.cartbsp .card-body h5 {
+    margin-top: 0rem;
+}
+
+.cartbsp .card-body p {
+    margin-top: 0rem;
+    height: 2.5rem;
+}
+
+.cartbsp .card-body .btn {
+    height: 3rem;
+    width: 12rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.cartbsp .card-body .btn:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.cartbsp .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.cartbsp {
+    height: 22rem;
+    width: 99%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cartbsp .card {
+    height: 21rem;
+    width: 16rem;
+    margin-top: 2rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+/*  TopRated products  cards Style*/
+.carttrp .card img {
+    height: 10rem;
+    width: 16rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.carttrp .card-body {
+    padding: 1rem;
+    height: 9rem;
+    background-color: aliceblue;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.carttrp .card-body h5 {
+    margin-top: 0rem;
+}
+
+.carttrp .card-body p {
+    margin-top: 0rem;
+    height: 2.5rem;
+}
+
+.carttrp .card-body .btn {
+    height: 3rem;
+    width: 12rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.carttrp .card-body .btn:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.carttrp .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.carttrp {
+    height: 22rem;
+    width: 99%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.carttrp .card {
+    height: 21rem;
+    width: 16rem;
+    margin-top: 2rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+/* Advertisement  Style*/
+.poster {
+    background-color: orange;
+    height: 9rem;
+    margin-top: 0.3rem;
+}
+
+/* Footer Style*/
+.foot {
+    background-color: aqua;
+    height: 0.2rem;
+}
+
+.foot-elements {
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 128);
+    color: azure;
+    opacity: 0.9;
+}
+
+.foot h2 {
+    margin-left: 2rem;
+}
+
+.foot h3 {
+    margin-left: 2rem;
+}
+
+.foot-elements li:hover {
+    opacity: 1;
+    zoom: 1.08;
+
+}
+
+.foot1 {
+    width: 12rem;
+    margin: 4.37rem 0.6rem 0 0;
+
+}
+
+.foot1 p {
+    padding-left: 2rem;
+
+}
+
+.foot2 {
+    width: 12.5rem;
+    margin: 4.37rem 0.3rem 0 0;
+}
+
+.foot3 {
+    width: 12.5rem;
+    margin: 4.37rem 0.3rem 0 0;
+}
+
+.foot4 {
+    width: 12.5rem;
+    margin: 4.37rem 0.3rem 0 0;
+}
+
+.foot5 {
+    width: 12.5rem;
+    margin: 4.37rem 0.6rem 0 0;
+}
+
+.foot .foot-elements li {
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+/* CopyRight Style */
+
+.backline {
+    width: 100%;
+    height: 3rem;
+}
+
+.col1 {
+    background-color: rgb(3, 3, 63);
+    color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.col1 h6 {
+    margin-top: 0.5rem;
+    font-size: larger;
+}
+
+.col2 {
+    background-color: black;
+}
+
+/* This is the END of ShopFront Website Style File  */

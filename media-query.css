@@ -1,0 +1,947 @@
+/* this media-query css file makes ShopFront Website Responsive  */
+
+/*  ShopFront Website Responsive  from 767px to 990px */
+@media screen and (min-width:767px) and (max-width:990px) {
+    .head .head-elements {
+        display: none;
+    }
+
+    .searchbox .box {
+        height: 1.3rem;
+        width: 18rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .searchbox .btn {
+        margin-right: 0rem;
+    }
+
+    .body-top .categories {
+        margin: 0.3rem 0 0.2rem 0.8rem;
+    }
+
+    .body-top .categories .btn {
+        width: 12rem;
+        height: 2.5rem;
+        margin: 0.5rem 0 0 0.5rem;
+    }
+
+    .body-top .nav-options {
+        margin: 0.3rem 1rem 0 0.5rem;
+    }
+
+    .body-top .nav-link {
+        text-decoration: none;
+        margin: 1.5rem 1rem 1rem 0.5rem;
+        color: rgb(29, 22, 22);
+        font-weight: 700;
+        font-size: larger;
+        opacity: 0.9;
+    }
+
+    .nav-togg {
+        display: block;
+        margin: 5px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .side-nav {
+        height: auto;
+        width: 30%;
+        margin: 0 0 0 1rem;
+    }
+
+    .nav-elements {
+        height: 2.5rem;
+    }
+
+    .main {
+        width: 28rem;
+        height: auto;
+        margin-left: 3rem;
+    }
+
+    .main-card .card {
+        position: relative;
+        display: inline-block;
+        width: 28rem;
+        height: 33rem;
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+
+    .main-card .card:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        transition: transform 0.2s ease-in-out;
+        transform: scale(1.02);
+    }
+
+    .main .card img {
+        display: block;
+        width: 28rem;
+        height: 33rem;
+    }
+
+    .main-card .card-img-overlay3 {
+        top: 125%;
+        left: 6%;
+    }
+
+    .main-card .card-img-overlay4 {
+        width: 4rem;
+        top: 125%;
+        left: 83%;
+    }
+
+    .navbar1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    .main2 .card {
+        position: relative;
+        height: 18rem;
+        width: 13rem;
+        margin: 0.5rem 0.2rem 0 1rem;
+        border-radius: 1rem;
+    }
+
+    .main2 .card-img {
+        height: 18rem;
+        width: 13rem;
+    }
+
+    .main2 .card-img-overlay h1 {
+        height: 4rem;
+        width: 12rem;
+    }
+
+    .main2 .card-img-overlay p {
+        height: 4rem;
+        width: 11rem
+    }
+
+    .main2 .card-img-overlay .btn {
+        width: 8rem;
+        height: 2.5rem;
+    }
+
+    .nav2 {
+        border-radius: 2rem;
+        height: 4rem;
+        margin-top: 0;
+        border: 7px solid rgb(22, 230, 108);
+    }
+
+    .nav2 .nav2-options {
+        width: 38rem;
+        margin: 1rem 0rem 0 0rem;
+    }
+
+    .nav2 .nav2-head {
+        width: 7rem;
+    }
+
+    .nav2 .nav2-head h1 {
+        height: 2rem;
+        margin: 0.7rem 0 0 1rem;
+        font-size: larger;
+    }
+
+    .nav2 .nav-link {
+        margin: 1.7rem 0.6rem 0 0.2rem;
+        font-size: medium;
+        opacity: 0.9;
+    }
+
+    .nav2 .nav2-options button {
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .cart .card-img-overlay {
+        height: 18rem;
+        width: 13rem;
+    }
+
+    .cart {
+        flex-wrap: wrap;
+    }
+
+    .cart .card {
+        width: 16rem;
+    }
+
+    .body3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .body3 .main-card {
+        width: 98%;
+        height: 20rem;
+    }
+
+    .body3 .main-card .card {
+        width: 97%;
+        height: 19rem;
+    }
+
+    .body3 .main-card .card .card-top {
+        width: 100%;
+        height: 19rem;
+    }
+
+    .body3 .main-card .card .card-img {
+        width: 100%;
+        height: 19rem;
+    }
+
+    .body3 .main-card .card-img-overlay {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tcards {
+        margin: 2rem 0.2rem 0.2rem 0;
+        width: 100%;
+    }
+
+    .tcards-1 {
+        width: 52%;
+        margin-right: 0px;
+        margin-left: 2px;
+    }
+
+    .tcards-2 {
+        width: 52%;
+        margin-right: 0px;
+        margin-left: 2px;
+    }
+
+    .tcards .card {
+        width: 21rem;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .tcards img {
+        height: 9rem;
+        width: 10rem;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .tcards p {
+        height: 3rem;
+        width: 8rem;
+        margin: 0.5rem 0 0 1rem;
+    }
+
+    .tcards h5 {
+        height: 2rem;
+        width: 8rem;
+        margin: auto;
+    }
+
+    .bodylp {
+        height: auto;
+        width: 99%;
+    }
+
+    .bodylp .cartlp {
+        height: auto;
+    }
+
+    .bodylp .cartlp .card {
+        margin: 0.4rem 3rem 1rem 3rem;
+    }
+
+    .image1 {
+        width: 98%;
+        height: 34rem;
+    }
+
+    .image1 img {
+        width: 98%;
+        height: 15rem;
+    }
+
+    .bodysale {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bodysale .image img {
+        width: 97%;
+        height: 13rem;
+        margin-top: 5px;
+    }
+
+    .cartfsp .card {
+        height: 21rem;
+        width: 13rem;
+        margin-top: 2rem;
+        position: relative;
+        border-radius: 1rem;
+    }
+
+    .cartfsp .card img {
+        height: 10rem;
+        width: 13rem;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .cartfsp .card .card-body button {
+        height: 2rem;
+        width: 7rem;
+    }
+
+    .cartfsp .card-body h5 {
+        margin: 0.8rem 0 0.5rem 0;
+    }
+
+    .block {
+        height: 104rem;
+    }
+
+}
+
+
+/*  ShopFront Website Responsive  from 360px to 766px */
+
+@media screen and (min-width:360px)and (max-width:766px) {
+
+    .head .head-elements {
+        display: none;
+    }
+
+    .tophead {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .searchbox {
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 0.3rem 0rem 0.2rem;
+        padding-top: 0.2rem;
+        width: 13rem;
+        height: 1.5rem;
+    }
+
+    .searchbox .box {
+        height: 1.2rem;
+        width: 6rem;
+        margin: 0.2rem 0.2rem 0 0;
+    }
+
+    .front {
+        height: auto;
+        width: 10rem;
+        margin: 0.4rem 0 0.5rem 0.2rem;
+    }
+
+    .front a {
+        text-decoration: none;
+        color: rgb(253, 251, 251);
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .searchbox .btn {
+        width: 4rem;
+        margin-right: 0rem;
+    }
+
+    .body-top {
+        height: 5rem;
+    }
+
+    .body-top .categories {
+        margin: 0.3rem 0 0.6rem 0.1rem;
+        width: 8rem;
+    }
+
+    .body-top .categories .btn {
+        width: 7rem;
+        height: 2.5rem;
+        margin: 0.5rem 0 0 0.01rem;
+    }
+
+    .body-top .nav-options {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0.3rem 0.7rem 0 0.5rem;
+    }
+
+    .body-top .nav-link {
+        text-decoration: none;
+        margin: 0.5rem 1rem 0.5rem 0.5rem;
+        color: rgb(29, 22, 22);
+        font-weight: 700;
+        font-size: medium;
+        opacity: 0.9;
+    }
+
+    .nav-togg {
+        display: block;
+        margin: 5px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .side-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: auto;
+        width: 95%;
+        margin: 0 0 0 0.5rem;
+    }
+
+    .nav-elements {
+        height: 2.5rem;
+        margin-left: 0.1rem;
+        width: 49%;
+    }
+
+    .nav-elements i {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 4px;
+        margin-top: 7px;
+    }
+
+    .main {
+        width: 90%;
+        height: 26rem;
+        margin-left: 0.5rem;
+    }
+
+    .main-card .card {
+        width: 98%;
+        height: 26rem;
+        margin: 1rem 0 0 0.5rem;
+    }
+
+    .main .card-img-overlay {
+        position: absolute;
+        width: 80%;
+        height: 23rem;
+        top: 5%;
+        left: 5%;
+        margin: 1rem 0 0 1rem;
+    }
+
+    .main .card-img-overlay .btn1 {
+        width: 12rem;
+        height: 2rem;
+        margin: 1rem 0 0.5rem 2rem;
+    }
+
+    .main .card-img-overlay .btn2 {
+        width: 12rem;
+        height: 2rem;
+        margin: 3rem 0 0 2rem;
+    }
+
+    .main .card img {
+        display: block;
+        width: 100%;
+        height: 26rem;
+    }
+
+    .main-card .card-img-overlay3 {
+        top: 110%;
+        left: 6%;
+    }
+
+    .main-card .card-img-overlay4 {
+        width: 4rem;
+        top: 110%;
+        left: 85%;
+    }
+
+    .main2 {
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        height: auto;
+        width: 99%;
+    }
+
+    .navbar1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    .main2 .card {
+        height: 13rem;
+        width: 22rem;
+        border-radius: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .main2 .card-img {
+        height: 13rem;
+        width: 22rem;
+        border-radius: 1rem;
+    }
+
+    .main2 .card-img-overlay {
+        top: 3%;
+        left: 5%;
+        height: 13rem;
+        width: 22rem;
+        text-align: center;
+    }
+
+    .main2 .card-img-overlay h1 {
+        height: 3rem;
+        width: 20rem;
+    }
+
+    .main2 .card-img-overlay p {
+        height: 4rem;
+        width: 16rem
+    }
+
+    .main2 .card-img-overlay .btn {
+        width: 8rem;
+        height: 2rem;
+        margin-right: 3rem;
+    }
+
+    .nav2 {
+        border-radius: 2rem;
+        height: 4rem;
+        margin-top: 0;
+        width: 97%;
+        border: 7px solid rgb(22, 230, 108);
+    }
+
+    .nav2 .nav2-options {
+        width: 30%;
+        margin: 1rem 0rem 0 0rem;
+        padding-left: 3rem;
+    }
+
+    .nav2 .nav2-head {
+        width: 70%;
+        padding: 0.8rem 0 0 0.7rem;
+    }
+
+    .nav2 .nav2-head h1 {
+        height: 3rem;
+        margin: 0.7rem 0 0 0.5rem;
+        font-size: x-large;
+        font-weight: 900;
+    }
+
+    .nav2 .nav2-options button {
+        width: 5rem;
+        margin-right: 0.5rem;
+    }
+
+    .nav2 .nav-link {
+        display: none;
+    }
+
+    .cart .card-img-overlay {
+        height: 4rem;
+        width: 5rem;
+    }
+
+    .cart {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .cart .card {
+        width: 47%;
+        height: 18rem;
+        margin-top: 1rem;
+    }
+
+    .cart .card img {
+        height: 8rem;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .cart .card-body {
+        padding: 0.4rem;
+        height: 9rem;
+        background-color: aliceblue;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .cart .card-body h5 {
+        margin-top: 0rem;
+    }
+
+    .cart .card-body p {
+        margin-top: 0rem;
+        height: 3.5rem;
+    }
+
+    .cart .card-body .btn {
+        height: 2.5rem;
+        width: 7rem;
+        margin: 0.2rem;
+        border-radius: 35pxpx;
+    }
+
+    .body3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .body3 .main-card {
+        width: 98%;
+        height: 20rem;
+        margin: 1rem 0.8rem 0.5rem 0.2rem;
+    }
+
+    .body3 .main-card .card {
+        width: 97%;
+        height: 19rem;
+        margin: 1rem 0.8rem 0.5rem 0.2rem;
+    }
+
+    .body3 .main-card .card .card-top {
+        width: 100%;
+        height: 19rem;
+    }
+
+    .body3 .main-card .card .card-img {
+        width: 100%;
+        height: 19rem;
+    }
+
+    .body3 .main-card .card-img-overlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 15rem;
+    }
+
+    .body3 h1 {
+        width: 13rem;
+        margin: 0.8rem 0 0.2rem 0;
+    }
+
+    .body3 .btn4 {
+        margin-top: 0.8rem;
+        border-radius: 0.5rem;
+        height: 2rem;
+        width: 8rem;
+    }
+
+    .body3 .btn2 {
+        margin-top: 1rem;
+        border-radius: 0.8rem;
+        height: 2rem;
+        width: 8rem;
+    }
+
+    .tcards {
+        margin: 2rem 0.2rem 0.2rem 0;
+        width: 98%;
+        flex-direction: column;
+    }
+
+    .tcards-1 {
+        width: 97%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .tcards-2 {
+        width: 97%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .tcards .card {
+        width: 22rem;
+    }
+
+    .tcards p {
+        height: 3rem;
+        width: 8rem;
+        margin: 0.5rem 0 0 1rem;
+    }
+
+    .tcards h5 {
+        height: 2rem;
+        width: 8rem;
+        margin: auto;
+    }
+
+    .bodylp {
+        height: auto;
+        width: 99%;
+    }
+
+    .bodylp .cartlp {
+        height: 79rem;
+        margin-left: 0.3rem;
+    }
+
+    .bodylp .cartlp .card {
+        margin: 0.4rem 0.2rem 1rem 0.3rem;
+        width: 47%;
+        height: 18rem;
+    }
+
+    .bodylp .cartlp .card img {
+        height: 8rem;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .bodylp .cartlp .card-body {
+        padding: 0.4rem;
+        height: 9rem;
+        background-color: aliceblue;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .bodylp .cartlp.card-body h5 {
+        margin-top: 0rem;
+    }
+
+    .bodylp .cartlp .card-body p {
+        margin-top: 0rem;
+        height: 3.5rem;
+    }
+
+    .bodylp .cartlp .card-body .btn {
+        height: 2.5rem;
+        width: 7rem;
+        margin: 0.2rem;
+        border-radius: 35pxpx;
+    }
+
+    .image1 {
+        width: 98%;
+        height: 34rem;
+    }
+
+    .image1 img {
+        width: 98%;
+        height: 15rem;
+    }
+
+    .bodysale {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bodysale .image img {
+        width: 97%;
+        height: 13rem;
+        margin-top: 5px;
+    }
+
+    .cartfsp {
+        flex-wrap: wrap;
+        height: 33rem;
+        margin-top: 1rem;
+    }
+
+    .cartfsp .card {
+        height: 9rem;
+        width: 21rem;
+        margin-top: 0.8rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cartfsp .card img {
+        height: 9rem;
+        width: 10rem;
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .cartfsp .card .card-body {
+        height: 7rem;
+        width: 11rem;
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .cartfsp .card .card-body button {
+        height: 2rem;
+        width: 7rem;
+    }
+
+    .cartfsp .card-body h5 {
+        margin: 0.8rem 0 0.5rem 0;
+    }
+
+    .block {
+        height: 93rem;
+        flex-direction: column;
+    }
+
+    .block1 {
+        width: 98%;
+        height: 46rem;
+    }
+
+    .block2 {
+        width: 98%;
+        height: 46rem;
+    }
+
+    .block .cartbsp .card {
+        margin: 0.4rem 0.2rem 1rem 0.3rem;
+        width: 47%;
+        height: 18rem;
+    }
+
+    .block .cartbsp .card img {
+        height: 8rem;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .block .cartbsp .card-body {
+        padding: 0.4rem;
+        height: 9rem;
+        background-color: aliceblue;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .block .cartbsp .card-body h5 {
+        margin-top: 0rem;
+    }
+
+    .block .cartbsp .card-body p {
+        margin-top: 0rem;
+        height: 3.5rem;
+    }
+
+    .block .cartbsp .card-body .btn {
+        height: 2.5rem;
+        width: 7rem;
+        margin: 0.2rem;
+        border-radius: 35pxpx;
+    }
+
+    .block .carttrp .card {
+        margin: 0.4rem 0.2rem 1rem 0.3rem;
+        width: 47%;
+        height: 18rem;
+    }
+
+    .block .carttrp .card img {
+        height: 8rem;
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .block .carttrp .card-body {
+        padding: 0.4rem;
+        height: 9rem;
+        background-color: aliceblue;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .block .carttrp .card-body h5 {
+        margin-top: 0rem;
+    }
+
+    .block .carttrp .card-body p {
+        margin-top: 0rem;
+        height: 3.5rem;
+    }
+
+    .block .carttrp .card-body .btn {
+        height: 2.5rem;
+        width: 7rem;
+        margin: 0.2rem;
+        border-radius: 35pxpx;
+    }
+
+
+    .foot-elements {
+        height: 45rem;
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .foot-elements .ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .foot1 {
+        width: 22rem;
+        margin: 1rem 0.3rem 0 0;
+    }
+
+    .foot2 {
+        width: 22rem;
+        margin: 1rem 0.3rem 0 0;
+    }
+
+    .foot3 {
+        width: 22rem;
+        margin: 1rem 0.3rem 0 0;
+    }
+
+    .foot4 {
+        width: 22rem;
+        margin: 1rem 0.3rem 0 0;
+    }
+
+    .foot5 {
+        width: 22rem;
+        margin: 1rem 0.3rem 0 0;
+    }
+
+    .backline {
+        width: 98%;
+        height: 4rem;
+    }
+}
