@@ -809,8 +809,7 @@
 .cartlp .card {
     height: 21rem;
     width: 16.5rem;
-    margin-top: 2rem;
-    margin-left:0.5rem;
+    margin:2rem 0.8rem 0.5rem 0.8rem;
     position: relative;
     border-radius: 1rem;
 }
@@ -1199,6 +1198,7 @@
 }
 
 /* This is the END of ShopFront Website Style File  */ is the END of ShopFront Website Style File  */
+
 
 
 
